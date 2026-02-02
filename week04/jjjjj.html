@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>แบบฟอร์มสมัครเรียน</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sarabun:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container form-container">
+      <form action="#" method="POST">
+        <div class="row mb-3">
+          <div class="col-12">
+            <label class="form-label"
+              >คณะ / สาขาที่ต้องการสมัคร
+              <span class="required-star">*</span></label
+            >
+            <select class="form-select" required>
+              <option selected disabled>เลือก..</option>
+              <option value="1">วิศวกรรม</option>
+              <option value="2">เทคโนโลยีสารสนเทศ</option>
+              <option value="3">วิทยาการคอมพิวเตอร์</option>
+              <option value="4">มนุษยศาสตร์</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-3 mb-3 mb-md-0">
+            <label class="form-label"
+              >สัญชาติ <span class="required-star">*</span></label
+            >
+            <select class="form-select" required>
+              <option selected disabled>เลือก..</option>
+              <option value="thai">ไทย</option>
+              <option value="gay">จีน</option>
+              <option value="other">อื่นๆ</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label class="form-label"
+              >เพศ <span class="required-star">*</span></label
+            >
+            <select class="form-select" required>
+              <option selected disabled>เลือก..</option>
+              <option value="male">ชาย</option>
+              <option value="female">หญิง</option>
+              <option value="gay">อื่นๆ</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-2 mb-3">
+            <label class="form-label"
+              >คำนำหน้าชื่อ
+              <span class="text-red-label">(ชื่อเดิม)</span></label
+            >
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label class="form-label"
+              >ชื่อ <span class="required-star">*</span></label
+            >
+            <input type="text" class="form-control" required />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label class="form-label"
+              >นามสกุล <span class="required-star">*</span></label
+            >
+            <input type="text" class="form-control" required />
+          </div>
+          <div class="col-md-2 mb-3">
+            <label class="form-label"
+              >บัตรประชาชน <span class="required-star">*</span></label
+            >
+            <input type="text" class="form-control" required />
+          </div>
+          <div class="col-md-2 mb-3">
+            <label class="form-label"
+              >เบอร์โทรศัพท์ <span class="required-star">*</span></label
+            >
+            <input type="text" class="form-control" required />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-3 mb-3">
+            <label class="form-label">ID Line (ถ้ามี)</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label class="form-label">Facebook (ถ้ามี)</label>
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label class="form-label">อีเมล</label>
+            <input type="email" class="form-control" />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-3 mb-3">
+            <label class="form-label"
+              >วุฒิการศึกษา <span class="required-star">*</span></label
+            >
+            <select class="form-select" required>
+              <option selected disabled>เลือก..</option>
+              <option value="m6">ม.6</option>
+              <option value="vc">ปวช.</option>
+              <option value="hvc">ปวส.</option>
+            </select>
+          </div>
+          <div class="col-md-6 mb-3">
+            <label class="form-label"
+              >ชื่อสถานศึกษาเดิม <span class="required-star">*</span></label
+            >
+            <input type="text" class="form-control" required />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label class="form-label"
+              >จังหวัด <span class="required-star">*</span></label
+            >
+            <select class="form-select" required>
+              <option selected disabled>เลือก..</option>
+              <option value="bkk">กรุงเทพมหานคร</option>
+              <option value="ch">สระแก้ว</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-3 mb-3">
+            <label class="form-label"
+              >สาขาวิชาที่เรียนจบ <span class="required-star">*</span></label
+            >
+            <input type="text" class="form-control" required />
+          </div>
+          <div class="col-md-3 mb-3">
+            <label class="form-label"
+              >ผลการเรียนเฉลี่ย (GPAX)
+              <span class="required-star">*</span></label
+            >
+            <input type="text" class="form-control" required />
+          </div>
+        </div>
+
+        <div class="row mb-3">
+          <div class="col-md-3 mb-3">
+            <label class="form-label"
+              >มีความต้องการกู้ยืมเงินเพื่อการศึกษา
+              <span class="required-star">*</span></label
+            >
+            <select class="form-select" required>
+              <option selected disabled>เลือก..</option>
+              <option value="yes">ต้องการ</option>
+              <option value="no">ไม่ต้องการ</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <label class="form-label text-red-label"
+              >เอกสารแนบ (แฟ้มสะสมงาน)</label
+            >
+            <input type="file" class="form-control" />
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center mt-3">
+            <button type="submit" class="btn btn-confirm me-2">ยืนยัน</button>
+            <button type="button" class="btn btn-cancel">ยกเลิก</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
